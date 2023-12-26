@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="scripts/scripts.js"></script>c
+    <title>Portafolio_Rolando_Murillo</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-left">
+        <span class="logo"></span>
+      </div>
+      <div class="header-right">
+        <ul class="shortcuts">
+          <li id="shortcut">
+            <a class="link"  onclick="activateLink(this)" href="#-home">Inicio</a>
+          </li>
+          <li id="shortcut">
+            <a class="link"  onclick="activateLink(this)" href="#-about">Sobre Mi</a>
+          </li>
+          <li id="shortcut">
+            <a class="link"  onclick="activateLink(this)" href="#-Habilities">Habilidades</a>
+          </li>
+          <li id="shortcut">
+            <a class="link"  onclick="activateLink(this)" href="#-briefcase">Portafolio</a>
+          </li>
+          <li id="shortcut">
+            <a class="link"  onclick="activateLink(this)" href="#-contact">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="_section" id="-home">
+      <div class="home-left">
+        <h1>Rolando Murillo</h1>
+        <span>Desarrollo Web</span>
+        <div class="networks">
+          <a class="social" id="linkeding" href="#" target="_blank" data-mensaje="Linkeding"></a>
+          <a class="social" id="facebook" href="#" target="_blank" data-mensaje="Facebook"></a>
+          <a class="social" id="instagram" href="#" target="_blank" data-mensaje="Instagran"></a>
+          <a class="social" id="whatsapp" href="#" target="_blank" data-mensaje="Whatsapp"></a>
+          <a class="social" id="telegram" href="#" target="_blank" data-mensaje="Telegram"></a>
+        </div>
+      </div>
+      <div class="home-right">
+        <div id="picture-home"></div>
+      </div>
+    </section>
+
+    <section class="_section" id="-about">
+      <div class="about-left">
+        <div id="picture-about">
+          <img src="public/Picture_1_1.png" alt="">
+        </div>
+      </div>
+      <div class="about-right">
+        
+      </div>
+    </section>
+
+    <section class="_section" id="-Habilities"></section>
+
+    <section class="_section" id="-briefcase"></section>
+
+    <section class="_section" id="-contact">
+      <form action="submit" class="contact">
+        <div class="container-form">
+          <h2>Nombre Completo</h2>
+          <input type="text" name="name-contacto" id="nameContact" />
+          <h2>Asunto</h2>
+          <input type="text" name="affair-contact" id="affairContact" />
+          <h2>Correo</h2>
+          <input type="email" name="email-contact" id="emailContact" />
+          <h2>Mensaje</h2>
+          <input type="text" name="message-contact" id="messageContact" />
+          <input type="button" value="Enviar" />
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <section class="_footer-logo">RolDev-22</section>
+      <section class="_footer-socialNetworks">
+        <span id="network" name="Facebook">f</span>
+        <span id="network" name="Instagram">i</span>
+        <span id="network" name="Linkedlin">l</span>
+        <span id="network" name="Github">g</span>
+      </section>
+      <section class="_footer-shortcuts">
+        <ul class="_shortcuts-footer">
+          <li id="_shortcut-footer">Home</li>
+          <li id="_shortcut-footer">2</li>
+          <li id="_shortcut-footer">3</li>
+          <li id="_shortcut-footer">4</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
